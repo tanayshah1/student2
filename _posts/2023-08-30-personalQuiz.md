@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: .md Quiz
 description: A cool quiz about me
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 1} }
 type: hacks
 ---
 
