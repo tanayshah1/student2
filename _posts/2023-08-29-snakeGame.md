@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: Snake Game
 description: A Snake Game I coded using CSS, HTML, and JavaScript

@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: Game of Life
 description: Play the popular board game online!

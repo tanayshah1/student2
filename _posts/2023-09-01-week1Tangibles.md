@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: Week 1 Progress/Trangibles
 description: This is a report of everything done this week. 
