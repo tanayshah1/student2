@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: Calculator
 description: A calculator I coded using CSS, HTML, and JavaScript
