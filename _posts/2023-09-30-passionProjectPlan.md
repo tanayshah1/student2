@@ -5,7 +5,7 @@ layout: post
 title: Passion Project Plan
 description: A plan
 courses: { compsci: {week: 5} }
-type: hacks
+type: plans
 ---
 
 # Background 
