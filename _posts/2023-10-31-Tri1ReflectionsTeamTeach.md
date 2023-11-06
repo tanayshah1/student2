@@ -2,7 +2,7 @@
 toc: false
 comments: true
 layout: post
-title: Tri 1 Reflections 
+title: Tri 1 Reflections TT
 description: A plan
 courses: { compsci: {week: 12} }
 type: plans
