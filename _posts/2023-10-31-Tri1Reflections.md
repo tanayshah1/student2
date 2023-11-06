@@ -18,9 +18,3 @@ type: plans
 
 | | In hindsight, there are certain aspects I would approach differently in future group projects. One important lesson is the necessity of ensuring all group members actively participate and carry their fair share of the workload. Toward the project's conclusion, I and another team member assumed a heavier workload compared to the rest of the group, which was an inequitable distribution of effort. Furthermore, I would emphasize more collaborative work throughout the project. Although we initially outlined our website's objectives, much of the work was carried out individually, limiting the synergy and creative input that could have emerged from more robust teamwork. | | 
 
-
-## Team Teaches 
-
-The team teaches were a very exciting project that allowed us to learn not only through our own research but as well learn from our peers. It gave us a nice refresh to the normal flow of school. 
-
-Our team taught the CB 3.9. 3.15 Developing Algoritms. We learned how to combine several different elements that we had used in the past such as booleans, conditionals, and more to create programs that can do complex tasks. We used these newly learned knowledge to apply it to our passion projects. We used algorithms in both the AI and optmizer. Specifically we used algorithms to train the AI but also in how its logic works to give a recommendation. The optimzer uses algorithms to work through over 6000 possible weightings of the stock to the find the most optimal. 
