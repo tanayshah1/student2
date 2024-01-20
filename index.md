@@ -38,15 +38,15 @@ title: Tanay's Website
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">1</td>
-    <td style="border: 1px solid white; padding: 8px;">AP Calc AB</td>
+    <td style="border: 1px solid white; padding: 8px;">Honors Humanities 1</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">2</td>
-    <td style="border: 1px solid white; padding: 8px;">AP World</td>
+    <td style="border: 1px solid white; padding: 8px;">AP Calc AB</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">3</td>
-    <td style="border: 1px solid white; padding: 8px;">Drama 1</td>
+    <td style="border: 1px solid white; padding: 8px;">Honors Principles of Engineering</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">4</td>
