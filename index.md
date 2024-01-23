@@ -24,7 +24,7 @@ title: Tanay's Website
 
 # My FreeForm Picture
 
-| <img src="https://i.ibb.co/DRW1kwQ/IMG-5502.jpg)" width = auto height = 600px > |
+| <img src="https://i.ibb.co/DRW1kwQ/IMG-5502.jpg" width = auto height = 600px > |
 |:---:|:---:|
 |This is the freeform picture that I created on the top left, there are 3 people showing the three people in my family. Under that, there is the Indian flag merged with the American flag showing my mixed cultural heritage. Then I have a football and golf since I enjoy playing those sports.|
 
@@ -56,6 +56,4 @@ title: Tanay's Website
     <td style="border: 1px solid white; padding: 8px;">5</td>
     <td style="border: 1px solid white; padding: 8px;">AP CSP</td>
   </tr>
-
-
 
