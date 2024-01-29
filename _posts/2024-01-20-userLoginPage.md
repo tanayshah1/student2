@@ -113,7 +113,7 @@ myHeaders.append("Content-Type", "application/json");
                 console.log(errorMsg);
                 return;
             }
-            window.location.href = "{{site.baseurl}}/";
+            window.location.href = "{{site.baseurl}}/data/database";
         })
         .catch(err => {
             console.error(err);
