@@ -76,7 +76,7 @@ span.psw {
 </style>
 <div class="login-container">
   <div class="imgcontainer">
-    <img src="https://i.ibb.co/JKpXRMP/bird-colorful-logo-gradient-vector-343694-1365.jpg" alt="Avatar" class="avatar">
+    <img src="https://i.ibb.co/HKqfPxw/82c65b9bb0a75026fc4c82a438b4cc9b.jpg" alt="Avatar" class="avatar">
   </div>
 
 <form action="javascript:login_user()">
