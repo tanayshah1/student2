@@ -4,30 +4,29 @@ layout: post
 toc: false
 title: Login
 permalink: /login
-description: Our Login
+description: Login to the database
 type: hacks
 courses: { compsci: { week: 13 } }
 ---
 
 <style>
- #login {
-    margin-top: 10px;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    width:100%;
+ .login-container {
+  border: 1px solid #c0e56b;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
 }
-.login-container {
-  border: 3px solid #f1f1f1;
+
+.input-container {
+  text-align: center; /* Center the text within the input boxes */
 }
 
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
@@ -37,30 +36,13 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
-  margin-left: 200px;
-}
-
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
+  width: 100%;
 }
 
 span.psw {
-  display: flex;
-  justify-items: center;
+  display: block;
   text-align: center;
-  margin-left: 325px;
-  padding-top: 16px;
+  margin: 16px 0;
 }
 
 @media screen and (max-width: 300px) {
@@ -75,9 +57,6 @@ span.psw {
 
 </style>
 <div class="login-container">
-  <div class="imgcontainer">
-    <img src="https://i.ibb.co/JKpXRMP/bird-colorful-logo-gradient-vector-343694-1365.jpg" alt="Avatar" class="avatar">
-  </div>
 
 <form action="javascript:login_user()">
     <label for="uid"><b>Username</b></label>
@@ -86,7 +65,7 @@ span.psw {
     <input type="password" id="password" placeholder="Enter Password" name="password" required>
     <button class='button'>Log in</button>
     <div>
-    <span class="psw">Need an account? <a href="{{site.baseurl}}/newUser"> Sign Up</a></span>
+    <span class="psw">Need an account? <a href="{{site.baseurl}}/newUser">  Sign Up</a></span>
     </div>
 
 </form>
