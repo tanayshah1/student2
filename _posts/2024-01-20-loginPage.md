@@ -6,6 +6,7 @@ title: JWT Login (python/flask)
 description: A login screen that interacts with Python and obtains a JWT
 type: tangibles
 courses: { compsci: { week: 13 } }
+hide: true
 ---
 
 
