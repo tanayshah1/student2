@@ -4,7 +4,7 @@ title: Edit Users
 description: Edit user information in the database.
 permalink: /edit-users
 type: tangibles
-courses: { compsci: {week: 13} }
+#courses: { compsci: {week: 13} }
 hide: true
 ---
 

@@ -6,7 +6,7 @@ title: Delete Account
 permalink: /delete
 description: This page will delete an account 
 type: hacks
-courses: { compsci: {week: 13} }
+#courses: { compsci: {week: 13} }
 ---
 
 <style>
