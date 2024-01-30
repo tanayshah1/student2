@@ -86,10 +86,8 @@ span.psw {
     <input type="password" id="password" placeholder="Enter Password" name="password" required>
     <button class='button'>Delete Account</button>
     <div>
-    <span class="psw">Need an account? <a href="{{site.baseurl}}/signup"> Sign Up</a></span>
-    </div>
 
-</form>
+
 <script type="module">
     import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
     function delete_user() {
@@ -124,7 +122,7 @@ span.psw {
             if (data !== null) {
                 console.log('Response:', data);
             }
-            // window.location.href = "{{site.baseurl}}/";
+            window.location.href = "{{site.baseurl}}/data/database";
         })
         .catch(err => {
             console.error('Fetch error:', err);
