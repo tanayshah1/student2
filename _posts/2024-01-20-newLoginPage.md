@@ -28,6 +28,7 @@ The form triggers the login_user function defined in the JavaScript below when t
     <p>
         <button>Login</button>
     </p>
+    <span class="psw">Need an account? <a href="{{site.baseurl}}/newUser"> Sign Up</a></span>
 </form>
 
 <!-- 
