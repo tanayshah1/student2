@@ -3,7 +3,7 @@ layout: post
 title: Edit Users
 description: Edit user information in the database.
 permalink: /edit-users
-type: plans
+type: tangibles
 courses: { compsci: {week: 13} }
 ---
 

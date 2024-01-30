@@ -1,36 +1,32 @@
 ---
 comments: True
 layout: post
-title: Edit User N
-description: cooking
-courses: { compsci: {week: 13} }
+toc: false
+title: JWT Login (python/flask)
+description: A login screen that interacts with Python and obtains a JWT
 type: tangibles
-permalink: /editUser1
+courses: { compsci: { week: 13 } }
 ---
-<style>
-
-</style>
 
 
-<div class="container">
-    <form id="username" action="javascript:login_user()">
-        <p>
-        <img src="/lmc-frontend/images/cookie.png" width="92px" height="100px">
-        </p>
-        <p><label>
-            User Name:
-            <input class="userInput" type="text" name="name" id="name" required>
-        </label></p>
-        <p><label>
-            Date of Birth:
-            <input class="userInput" type="text" id="dob" required>
-        </label></p>
-        <p>
-            <button onclick="login_user()">Submit</button>
-        </p>
-    </form>
-</div>
+<!-- 
+A simple HTML login form with a Login action when the button is pressed.  
 
+The form triggers the login_user function defined in the JavaScript below when the Login button is pressed.
+-->
+<form action="javascript:login_user()">
+    <p><label>
+        User ID:
+        <input type="text" name="uid" id="uid" required>
+    </label></p>
+    <p><label>
+        Password:
+        <input type="password" name="password" id="password" required>
+    </label></p>
+    <p>
+        <button>Login</button>
+    </p>
+</form>
 
 <!-- 
 Below JavaScript code is designed to handle user authentication in a web application. It's written to work with a backend server that uses JWT (JSON Web Tokens) for authentication.
@@ -40,32 +36,25 @@ The script defines a function when the page loads. This function is triggered wh
 <script type="module">
     // uri variable and options object are obtained from config.js
     import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
-    
+
     function login_user(){
         // Set Authenticate endpoint
-        const url = uri + '/api/users/';
+        const url = uri + '/api/users/authenticate';
 
         // Set the body of the request to include login data from the DOM
         const body = {
-            name: document.getElementById("name").value,
-            dob: document.getElementById("dob").value,
+            uid: document.getElementById("uid").value,
+            password: document.getElementById("password").value,
         };
 
         // Change options according to Authentication requirements
         const authOptions = {
             ...options, // This will copy all properties from options
-            method: 'PUT', // Override the method property
+            method: 'POST', // Override the method property
             cache: 'no-cache', // Set the cache property
-            headers: {
-                'Content-Type': 'application/json', // Example header
-                'uid': localStorage.getItem('uid') // Set the uid as a header
-            },
-            body: JSON.stringify(body),
+            body: JSON.stringify(body)
         };
 
-        console.log(url);
-        console.log(authOptions);
-        console.log(body);
         // Fetch JWT
         fetch(url, authOptions)
         .then(response => {
@@ -75,6 +64,8 @@ The script defines a function when the page loads. This function is triggered wh
                 console.log(errorMsg);
                 return;
             }
+            // Success!!!
+            // Redirect to the database page
             window.location.href = "{{site.baseurl}}/data/database";
         })
         // catch fetch errors (ie ACCESS to server blocked)
