@@ -23,7 +23,9 @@ courses: { compsci: {week: 13} }
     <!-- javascript generated data -->
   </tbody>
 </table>
-
+<div>
+  <a href = "{{site.baseurl}}/newUser">New User</a>
+</div>
 <div>
   <a href = "{{site.baseurl}}/delete">Delete User</a>
 </div>
