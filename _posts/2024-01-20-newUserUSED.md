@@ -36,8 +36,8 @@ The form triggers the login_user function defined in the JavaScript below when t
             <input class="userInput" type="text" id="dob" required>
         </label></p>
 		<p><label>
-			Favorite Food:
-			<input class="userInput" type="text" id="food" required>
+			Email:
+			<input class="userInput" type="text" id="email" required>
 		</label></p>
         <p>
             <button onclick="login_user()">Submit</button>
@@ -76,9 +76,9 @@ The script defines a function when the page loads. This function is triggered wh
         const body = {
             name: document.getElementById("name").value,
             uid: document.getElementById("uid").value,
+            email: document.getElementById("email").value,
             password: document.getElementById("password").value,
-            dob: document.getElementById("dob").value,
-			fav_food: document.getElementById("food").value
+            dob: document.getElementById("dob").value
         };
 
         // Change options according to Authentication requirements
