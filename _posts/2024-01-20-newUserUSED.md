@@ -9,15 +9,54 @@ hide: true
 ---
 
 <style>
+ .login-container {
+  border: 1px solid #c0e56b;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+.input-container {
+  text-align: center; /* Center the text within the input boxes */
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+span.psw {
+  display: block;
+  text-align: center;
+  margin: 16px 0;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
 
 </style>
-<!-- 
-A simple HTML login form with a Login action when button is pressed.  
 
-The form triggers the login_user function defined in the JavaScript below when the Login button is pressed.
--->
-
-<div class="container">
+<div class="login-container">
     <form id="username" action="javascript:login_user()">
         <label>
             Name:
