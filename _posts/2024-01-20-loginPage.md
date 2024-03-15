@@ -2,7 +2,7 @@
 comments: True
 layout: post
 toc: false
-title: JWT Login (python/flask)
+title: JWT Login (python/flask) TEST
 description: A login screen that interacts with Python and obtains a JWT
 type: tangibles
 courses: { compsci: { week: 13 } }
@@ -35,12 +35,19 @@ Below JavaScript code is designed to handle user authentication in a web applica
 The script defines a function when the page loads. This function is triggered when the Login button in the HTML form above is pressed. 
  -->
 <script type="module">
+
+    console.log("aisjdaijdij 3")
+
     // uri variable and options object are obtained from config.js
     import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
+
+    console.log("aisjdaijdij 2")
 
     function login_user(){
         // Set Authenticate endpoint
         const url = uri + '/api/users/authenticate';
+
+        console.log("asijdaisdj")
 
         // Set the body of the request to include login data from the DOM
         const body = {
