@@ -44,6 +44,25 @@ type: hacks
 - Just tried to use logic and proccess of elimination but honestly didn't work 
 - Got humbled
 
+
+# Popcorn Hacks: 
+1. Binary overflow is when the number trying to be represented is too large for the set number of binary digits we have. For example trying to add 1 to 11111111 (255)
+2. 
+OR gate: 
+def OR_gate(A, B):
+    return A or B
+
+AND gate: 
+def AND_gate(A, B):
+    return A and B
+3. def multiply(x, y):
+    count = 0
+    result = 0
+    while count < y:
+        result += x
+        count += 1
+    return result
+
 # Reflection
 
 - My coding and logic skills are improving and the 2021 MCQ was a good source of help
