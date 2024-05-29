@@ -23,6 +23,7 @@ type: hacks
 | <img src="https://i.ibb.co/rMR7y0G/Screenshot-2024-03-26-at-10-47-54-PM.png" width = auto height = 600px > |
 
 - Here I was confused about the word redundant 
+- I am skibidi
 - Spaced out and forgot what it meant and tried to guess 
 
 ### Q16
